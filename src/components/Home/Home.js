@@ -11,36 +11,28 @@ function Home() {
       <Container fluid className="home-section" id="home">
         <Particle />
         <Container className="home-content">
-          <Row>
-            <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 10}} className="heading">
-                Hello! I am Emili Robles{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
-                </span>
+          <Row className="home-main-row align-items-center justify-content-center">
+            <Col md={5} className="text-center">
+            <img
+            src={mePic}
+            alt="Emili Robles"
+            className="img-fluid profile-img-centered"
+            />
+            </Col>
+            <Col md={6} className="home-header text-start">
+            <h1 className="heading">
+              Hello! I am <strong>Emili Robles</strong>{" "}
+              <span className="wave" role="img" aria-labelledby="wave">👋🏻</span>
               </h1>
-
               <h1 className="heading-name">
                 Designing tech for
                 <strong className="main-name"> social change.</strong>
-              </h1>
-
-              <div style={{ padding: 50, textAlign: "left" }}>
-                <Type />
-              </div>
-            </Col>
-
-            <Col className="profile-pic" md={5} style={{ paddingBottom: 15}}>
-              <img
-                src={mePic}
-                alt="home pic"
-                className="img-fluid"
-                style= {{maxHeight: "800px"
-                }}
-                
-              />
-            </Col>
-          </Row>
+                </h1>
+                <div className="typewriter-wrap">
+                  <Type />
+                </div>
+              </Col>
+            </Row>
         </Container>
       </Container>
       <Home2 />
