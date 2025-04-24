@@ -28,14 +28,16 @@ function Home() {
                 Designing tech for
                 <strong className="main-name"> social change.</strong>
                 </h1>
-                <div className="typewriter-wrap">
+                <div className="typewriter-wrapper">
                   <Type />
                 </div>
               </Col>
             </Row>
+            <Home2 />
         </Container>
+        
       </Container>
-      <Home2 />
+  
     </section>
   );
 }

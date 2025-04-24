@@ -252,7 +252,7 @@ button:focus {
 }
 
 .home-header {
-  padding-top: 80px !important;
+  padding-top: 0px !important;
 }
 
 .home-section {
@@ -261,24 +261,30 @@ button:focus {
   background-color: #141F33;
   background-position: top center;
   background-repeat: no-repeat;
-  padding-bottom: 10px !important;
-  padding-top: 10px !important;
+  padding-bottom: 0px !important;
+  padding-top: 0px !important;
 }
 
 .home-content {
   padding: 2rem 0 2rem !important;
   color: whitesmoke;
   text-align: left;
+  padding-bottom: 0px !important;
+  padding-top: 0px !important;
 }
 
 .heading {
   font-size: 2.4em !important;
-  padding-left: 50px !important;
+  padding-left: 10px !important;
+  text-align: center;
 }
 
 .heading-name {
   font-size: 2.5em !important;
-  padding-left: 45px !important;
+  padding-left: 10px !important;
+  text-align: center;
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
 }
 
 .main-name {
@@ -289,21 +295,51 @@ button:focus {
   font-size: 2.2em !important;
   color: #6ab6df !important;
   font-weight: 600 !important;
+  flex-wrap: nowrap !important;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  width: 90% !important;
+  text-align: center;
+
 }
+
 .Typewriter__cursor {
   font-size: 2.4em !important;
   color: #62a4d6 !important;
+
+
 }
+
+.carousel .carousel-item img {
+  border-radius: 12px;
+  max-height: 400px;
+  object-fit: cover;
+  padding-top: 0px;
+}
+.carousel-inner {
+  padding: 1rem;
+}
+
+.carousel-col {
+  margin-top: 2rem !important; /* Reduce from Bootstrap’s 3rem */
+}
+
 
 @media (max-width: 767px) {
   .Typewriter__wrapper {
     font-size: 1.4em !important;
     font-weight: 500 !important;
-    position: absolute !important;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+    
   }
   .Typewriter__cursor {
-    display: none !important;
+    font-size: 2.2em !important;
+    color: #62a4d6 !important;
+    
   }
+  
 
 }
 
@@ -311,40 +347,46 @@ button:focus {
   .profile-pic {
     margin-top: -90px; /* Move up as needed */
     position: relative;
+    
   }
 }
 
 
 .myAvtar {
   justify-content: center !important;
-  padding-top: 3em !important;
+  padding-top: 0em !important;
+  margin-top: -10rem !important;
   padding-bottom: 0 !important;
+  display: flex !important;
+  align-items: center !important;
 }
 
 @media (max-width: 767px) {
   .myAvtar {
-    padding-top: 2em !important;
-    padding-bottom: 2em !important;
+    padding-top: 0em !important;
+    margin-top: -3rem !important;
+    padding-bottom: 3em !important;
+    
   }
 }
 
 .home-about-section {
   position: relative;
-  padding-bottom: 10px !important;
-  padding-top: 10px !important;
+  padding-bottom: 0px !important;
+  padding-top: 0px !important;
 }
 
 .home-about-description {
   color: white !important;
-  padding-top: 10px !important;
+  padding-top: 0px !important;
   padding-bottom: 10px !important;
-  text-align: center;
+  text-align: left !important;
 }
 
 .home-about-body {
-  padding-top: 10px;
+  padding-top: 0px;
   font-size: 1.2em !important;
-  text-align: center;
+  text-align: left;
 }
 
 .home-about-social {
@@ -382,7 +424,7 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #2a187a;
+  background: #18227a;
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -390,13 +432,13 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #351f95;
+  box-shadow: 0 0 15px #1f3a95;
 }
 
 .home-social-icons:hover {
   color: #26209e;
-  box-shadow: 0 0 5px #40209e;
-  text-shadow: 0 0 2px #3d209e;
+  box-shadow: 0 0 5px #202d9e;
+  text-shadow: 0 0 2px #20289e;
 }
 
 .social-icons {
@@ -406,12 +448,14 @@ button:focus {
 }
 
 .icon-colour {
-  color: #350c86 !important;
+  color: #0c0e86 !important;
 }
 
 .home-main-row {
-  padding-top: 6rem;
-  padding-bottom: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 0 !important;
+  margin-bottom: 3rem !important;
+
 }
 
 .profile-img-centered {
@@ -433,12 +477,16 @@ button:focus {
 .heading-name {
   font-size: 2.1em !important;
   color: white;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
-.typewriter-wrap {
-  padding-top: 1.5rem;
-  padding-left: 2.7rem;
+.typewriter-wrapper {
+  margin-top: 0.5rem;
+  padding-top: 0 !important;
+  padding-left: 0 !important;
 }
+
 
 
 /* --------- */

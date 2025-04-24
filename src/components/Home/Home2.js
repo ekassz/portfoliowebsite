@@ -8,11 +8,20 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import Carousel from "react-bootstrap/Carousel";
+import photo1 from "../../Assets/CS407.jpg";
+import photo2 from "../../Assets/ncurgroup.jpeg";
+import photo3 from "../../Assets/stbx.png";
+import photo4 from "../../Assets/maximonivel.jpg";
+import photo5 from "../../Assets/hsf.jpg";
+import photo6 from "../../Assets/research.jpg";
+
 
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
+
         <Row className="align-items-center">
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
@@ -20,10 +29,10 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               I'm a senior at the University of Wisconsin-Madison
-              <br />🔍 Majors: Computer Science, Data Science
-              <br />🧠 Minors: Leadership, Digital Studies
+              <br />🔍 Majors: Computer Science and Data Science
+              <br />🧠 Minors: Leadership and Digital Studies
               <br />🧩 Pronouns: she/her/hers
-              <br />🔧 Hobbies: Cycling, Volunteering, Pokemon, Videography
+              <br />🔧 Hobbies: Cycling, Volunteering, Pokemon, Gardening
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -32,6 +41,35 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
+
+                  <Row>
+          <Col md={12} className="carousel-col">
+
+            <Carousel indicators={false} interval={3000} pause={false}>
+              <Carousel.Item>
+                <img className="d-block w-100" src={photo1} alt="First slide" />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img className="d-block w-100" src={photo2} alt="Second slide" />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img className="d-block w-100" src={photo3} alt="Third slide" />
+              </Carousel.Item>
+              
+              <Carousel.Item>
+                <img className="d-block w-100" src={photo4} alt="Fourth slide" />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img className="d-block w-100" src={photo5} alt="Fifth slide" />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img className="d-block w-100" src={photo6} alt="Sixth slide" />
+              </Carousel.Item>
+            </Carousel>
+          </Col>
+        </Row>
+
+        
         <Row>
           <Col md={12} className="home-about-social">
             <h3>
