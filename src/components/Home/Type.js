@@ -8,7 +8,7 @@ function Type() {
         strings: [
           "Software Engineer",
           "Data Scientist",
-          "UX/UI Designer",
+          "UI/UX Designer",
           "Social Justice Advocate",
           "Data Analyst"
         ],

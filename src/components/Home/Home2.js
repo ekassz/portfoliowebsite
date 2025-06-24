@@ -28,8 +28,9 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I'm a senior at the University of Wisconsin-Madison
-              <br />🔍 Majors: Computer Science and Data Science
+              I'm a recent graduate from the University of Wisconsin-Madison! 
+              <br /> Class of 2025🎓 
+              <br />🔍 Majors: B.S. in Computer Science and Data Science
               <br />🧠 Minors: Leadership and Digital Studies
               <br />🧩 Pronouns: she/her/hers
               <br />🔧 Hobbies: Cycling, Volunteering, Pokemon, Gardening
@@ -73,7 +74,7 @@ function Home2() {
         <Row>
           <Col md={12} className="home-about-social">
             <h3>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <span className="purple">connect </span>with me!
             </h3>
             <ul className="home-about-social-links">
               <li className="social-icons">

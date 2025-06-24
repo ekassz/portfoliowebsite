@@ -1,6 +1,6 @@
-import React from "react";
+
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+
 
 function AboutCard() {
   return (
@@ -8,33 +8,24 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+            Hi Everyone, I am <span className="purple">Emili Robles </span>
+            from <span className="purple"> Chicago, IL.</span>
             <br />
-            I am currently employed as a software developer at Juspay.
-            <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            I am currently employed as a <span className="purple">Software Engineer</span> at <span className="purple"> Starbucks.</span>
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            I am a passionate advocate for equity, representation, and social change through technology,
+            driven by my experiences as a first-generation Latina in STEM. I strive to leverage data visualization, computing and 
+            UX design to be an advocate for underrepresented communities.
+            <br />
+            <br />
+            In my free time, I love to do volunteer work, play pokemon, and explore new places. I'm always eager to involve myself in projects that align with my values and interests!
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-          </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Be the change for your community"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Emili</footer>
         </blockquote>
       </Card.Body>
     </Card>
