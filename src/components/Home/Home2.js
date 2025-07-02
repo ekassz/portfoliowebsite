@@ -4,7 +4,6 @@ import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -15,6 +14,12 @@ import photo3 from "../../Assets/stbx.png";
 import photo4 from "../../Assets/maximonivel.jpg";
 import photo5 from "../../Assets/hsf.jpg";
 import photo6 from "../../Assets/research.jpg";
+import photo7 from "../../Assets/leadercer.jpg";
+import photo8 from "../../Assets/costar.jpg";
+import photo9 from "../../Assets/HackWeek.jpg";
+import SocialLinks from "./SocialLinks";
+
+
 
 
 function Home2() {
@@ -43,7 +48,7 @@ function Home2() {
           </Col>
         </Row>
 
-                  <Row>
+        <Row>
           <Col md={12} className="carousel-col">
 
             <Carousel indicators={false} interval={3000} pause={false}>
@@ -66,16 +71,29 @@ function Home2() {
               <Carousel.Item>
                 <img className="d-block w-100" src={photo6} alt="Sixth slide" />
               </Carousel.Item>
+
+              <Carousel.Item>
+                <img className="d-block w-100" src={photo7} alt="Seventh slide" />
+              </Carousel.Item>
+
+              <Carousel.Item>
+                <img className="d-block w-100" src={photo8} alt="Eighth slide" />
+              </Carousel.Item>
+
+              <Carousel.Item>
+                <img className="d-block w-100" src={photo9} alt="Ninth slide" />
+              </Carousel.Item>
+
             </Carousel>
           </Col>
         </Row>
 
-        
         <Row>
           <Col md={12} className="home-about-social">
-            <h3>
-              Feel free to <span className="purple">connect </span>with me!
-            </h3>
+            <h1>FIND ME ON</h1>
+            <p>
+              Feel free to <span className="purple">connect </span>with me
+            </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
@@ -87,6 +105,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
+              
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/emili-robles/"
@@ -99,7 +118,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/emilirs"
+                  href="https://www.instagram.com/emilirs/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
@@ -110,6 +129,7 @@ function Home2() {
             </ul>
           </Col>
         </Row>
+
       </Container>
     </Container>
   );

@@ -7,7 +7,7 @@ html {
 
   --image-gradient: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.678),
+    rgba(37, 49, 92, 0.678),
     rgba(10, 16, 22, 0.863)
   );
 
@@ -32,7 +32,7 @@ button:focus {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background-color: #050513;
+  background-color: #141c33;
   background-image: url(./Assets/pre.gif);
   background-repeat: no-repeat;
   background-size: 5%;
@@ -58,18 +58,18 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #192550;
+  background: #71a3d5;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(121, 127, 216, 0.959);
+  background: rgba(244, 244, 246, 0.959);
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(130, 181, 235, 0.911);
+  background: rgba(155, 193, 232, 0.911);
   border-radius: 12px;
 }
 
@@ -77,9 +77,9 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #1b1a2ea9 !important;
+  background-color: #0f182bbc !important;
   transition: all 0.3s ease-out 0s !important;
-  box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
+  box-shadow: 0px 10px 10px 0px rgba(32, 22, 81, 0.256) !important;
   backdrop-filter: blur(15px) !important;
 }
 
@@ -98,7 +98,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #4124c3 !important;
+  background-color: #6ab6df !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -195,7 +195,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #5b84f5;
+  background: #9ba2b6;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -258,7 +258,7 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-color: #141F33;
+  background-color: #141c33;
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 0px !important;
@@ -372,8 +372,9 @@ button:focus {
 
 .home-about-section {
   position: relative;
-  padding-bottom: 0px !important;
+  padding-bottom: 50px !important;
   padding-top: 0px !important;
+  z-index: 100 !important;
 }
 
 .home-about-description {
@@ -424,7 +425,7 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #18227a;
+  background: #18327a;
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -432,13 +433,13 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #1f3a95;
+  box-shadow: 0 0 15px #1f2195;
 }
 
 .home-social-icons:hover {
-  color: #26209e;
-  box-shadow: 0 0 5px #202d9e;
-  text-shadow: 0 0 2px #20289e;
+  color: #37209e;
+  box-shadow: 0 0 5px #20429e;
+  text-shadow: 0 0 2px #20429e;
 }
 
 .social-icons {
@@ -446,11 +447,9 @@ button:focus {
   padding-right: 15px;
   padding-left: 15px;
 }
-
 .icon-colour {
-  color: #0c0e86 !important;
+  color: #2d0c86 !important;
 }
-
 .home-main-row {
   padding-top: 2rem;
   padding-bottom: 0 !important;
@@ -551,7 +550,7 @@ button:focus {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(53, 63, 136, 0.459) !important;
+  box-shadow: 0 4px 5px 3px rgba(53, 106, 136, 0.459) !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -561,7 +560,7 @@ button:focus {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(72, 72, 144, 0.561) !important;
+  box-shadow: 0 4px 4px 5px rgba(100, 186, 233, 0.561) !important;
 }
 
 .blog-card {
@@ -614,8 +613,8 @@ button:focus {
 }
 
 .btn-primary:hover {
-  color: #fff !important;
-  background-color: #5420c5d7 !important;
+  color: #181f44 !important;
+  background-color: #aec1f2d7 !important;
   border-color: #4620c5d7 !important;
 }
 .btn:focus {
@@ -637,7 +636,7 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-color: #141F33 !important;
+  background-color: #141c33 !important;
   color: white !important;
 }
 

@@ -4,6 +4,7 @@ import mePic from "../../Assets/mePic.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import SocialLinks from "./SocialLinks";
 
 function Home() {
   return (
@@ -33,10 +34,12 @@ function Home() {
                 </div>
               </Col>
             </Row>
-            <Home2 />
+            
         </Container>
         
+        
       </Container>
+      <Home2/>
   
     </section>
   );

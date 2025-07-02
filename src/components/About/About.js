@@ -31,10 +31,16 @@ function About() {
           >
             <img src={csImage} alt="about" className="img-fluid" />
           </Col>
+
+          <Col>
+          <h1 style={{ paddingTop: "30px" , paddingBottom: "0px" ,marginBottom: "10px" }}>
+            Organization <strong className="purple">Involvement</strong>
+          </h1>
+          <div style={{marginTop: "0px"}}>
+          <Organizations />
+          </div>
+          </Col>
         </Row>
-        <h1 className="project-heading">
-          Organization <strong className="purple">Involvement</strong>
-        </h1>
 
         
 
