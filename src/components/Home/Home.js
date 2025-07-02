@@ -21,7 +21,7 @@ function Home() {
             </Col>
             <Col md={6} className="home-header text-start">
             <h1 className="heading">
-              Hello! I am <strong>Emili Robles</strong>{" "}
+              Hello! I'm <strong>Emili Robles</strong>{" "}
               <span className="wave" role="img" aria-labelledby="wave">👋🏻</span>
               </h1>
               <h1 className="heading-name">

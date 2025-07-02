@@ -34,8 +34,8 @@ function Home2() {
             <p className="home-about-body">
               I'm a recent graduate from the University of Wisconsin-Madison! 
               <br /> Class of 2025🎓 
-              <br />🔍 Majors: B.S. in Computer Science and Data Science
-              <br />🧠 Minors: Leadership and Digital Studies
+              <br />🔍 B.S. in Computer Science & Data Science
+              <br />🧠 Minors: Leadership & Digital Studies
               <br />🧩 Pronouns: she/her/hers
               <br />🔧 Hobbies: Cycling, Volunteering, Pokemon, Gardening
             </p>

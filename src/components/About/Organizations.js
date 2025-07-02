@@ -20,7 +20,7 @@ function Organizations() {
                         imgPath={rtc}
                         isBlog={false}
                         title="Rewriting The Code (RTC)"
-                        description="I’m a current member and served as a Summer Hub leader in Seattle in summer 2024 while interning- to help create a community with other women interns in Seattle!"
+                        description="I’m a current member and served as a Summer Hub leader in Seattle in the summer of 2024 while interning- to help create a community with other women interns in Seattle!"
                     />
                 </Col>
 
@@ -29,7 +29,7 @@ function Organizations() {
                         imgPath={wacm}
                         isBlog={false}
                         title="WACM (ACM's Women in Computing)"
-                        description="Being part of the Exec board, I collaborated with my team to host biweekly lunches including guests who range from student, professors, to professionals in CS!"
+                        description="Being part of the Exec board, I collaborated with my team to host biweekly lunches including guests who range from students, professors, and professionals in CS!"
                     />
                 </Col>
 
@@ -38,7 +38,7 @@ function Organizations() {
                         imgPath={wiscience}
                         isBlog={false}
                         title="Wiscience: STEM Immersive Program"
-                        description="I volunteered as a STEM peer leader where we host events and lead accountability groups in hopes to make an immersive environment for all students in STEM."
+                        description="I volunteered as a STEM peer leader where I helped host events and lead accountability groups in order to create an immersive environment for all students in STEM."
                     />
                 </Col>
 
@@ -47,7 +47,7 @@ function Organizations() {
                         imgPath={ls}
                         isBlog={false}
                         title="L&S Dean's Ambassador"
-                        description="2024-2025 ambassador for the college of letters & science @ Uw-madison, where I help lead the development of the college’s structure for student life."
+                        description="2024-2025 ambassador for the College of Letters & Science @ UW-Madison, where I helped lead the development of the college’s structure for student life."
                     />
                 </Col>
 
@@ -56,7 +56,7 @@ function Organizations() {
                         imgPath={hsforg}
                         isBlog={false}
                         title="Hispanic Scholarship Fund (HSF)"
-                        description="I’m a HSF scholar where I have been able to go to their STEM summit in San Jose, CA. They’ve helped me gain access to internship prep and learning how to give back!"
+                        description="I’m a HSF scholar where I have been able to go to their STEM summit in San Jose, CA. They’ve helped me gain access to internship prep and how to give back!"
                     />
                 </Col>
 
@@ -65,7 +65,7 @@ function Organizations() {
                         imgPath={mlt}
                         isBlog={false}
                         title="MLT: Software Engineering Career Prep"
-                        description="I’m a SWE fellow for MLT, where I've had the opportunity to go to their tech trek in San Francisco, CA and their career summit in Texas @ Deloitte University."
+                        description="I’m a SWE fellow for MLT, where I've had the opportunity to go to their tech trek in San Francisco, CA and their career summit in Texas @ Deloitte University for extensive internship/career prep."
                     />
                 </Col>
 
@@ -74,7 +74,7 @@ function Organizations() {
                         imgPath={atlas}
                         isBlog={false}
                         title="ATLAS Fellow"
-                        description="Being an ATLAS scholar & fellow has changed my college career as I got to intern with 2 of their partner companies and receiving a scholarship to fund my studies."
+                        description="I was awarded a $20K scholarship + $5K stipend to be an ATLAS fellow at UW-Madison. They've helped me with my professional development by interning with 2 partner companies and career prep!"
                     />
                 </Col>
 
