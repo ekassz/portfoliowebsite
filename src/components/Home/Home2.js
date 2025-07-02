@@ -17,7 +17,6 @@ import photo6 from "../../Assets/research.jpg";
 import photo7 from "../../Assets/leadercer.jpg";
 import photo8 from "../../Assets/costar.jpg";
 import photo9 from "../../Assets/HackWeek.jpg";
-import SocialLinks from "./SocialLinks";
 
 
 
