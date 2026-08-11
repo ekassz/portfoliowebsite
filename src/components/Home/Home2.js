@@ -32,12 +32,15 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I'm a recent graduate from the University of Wisconsin-Madison! 
-              <br /> Class of 2025🎓 
-              <br />🔍 B.S. in Computer Science & Data Science
-              <br />🧠 Minors: Leadership & Digital Studies
-              <br />🧩 Pronouns: she/her/hers
-              <br />🔧 Hobbies: Cycling, Volunteering, Pokemon, Gardening
+              I'm a current master's student at Georgetown University, McCourt School of Public Policy.
+              <br /> Class of 2028🎓 
+              <br />🔍 M.S. in Data Science for Public Policy
+              <br />🧩 Pronouns: She/Her/Hers
+              <br />🔧 Hobbies: Volunteering, Pokemon, Stationary
+            </p>
+
+            <p className="home-about-body">
+              I graduated from the University of Wisconsin-Madison in 2025 with a B.S. in Computer Science & Data Science, as well as minors in Leadership & Digital Studies.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
