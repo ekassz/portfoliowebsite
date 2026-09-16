@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Organizations from "./Organizations";
+import PastOrganizations from "./PastOrganizations";
 import Aboutcard from "./AboutCard";
 import csImage from "../../Assets/csgrad.JPG";
 
@@ -34,7 +35,7 @@ function About() {
 
           <Col>
           <h1 style={{ paddingTop: "30px" , paddingBottom: "0px" ,marginBottom: "10px" }}>
-            Organization <strong className="purple">Involvement</strong>
+            <strong className="purple">Current</strong> Organization Involvement
           </h1>
           <div style={{marginTop: "0px"}}>
           <Organizations />
@@ -42,6 +43,16 @@ function About() {
           </Col>
         </Row>
 
+        <Row>
+          <Col>
+          <h1 style={{ paddingTop: "30px" , paddingBottom: "0px" ,marginBottom: "10px" }}>
+            <strong className="purple">Undergraduate</strong> Organization Involvement
+          </h1>
+          <div style={{marginTop: "0px"}}>
+          <PastOrganizations />
+          </div>
+          </Col>
+        </Row>
         
 
       </Container>
