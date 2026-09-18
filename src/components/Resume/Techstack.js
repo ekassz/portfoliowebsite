@@ -1,48 +1,42 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
-import 'iconify-icon'; 
+import "iconify-icon";
+
+const technologies = [
+  ["simple-icons:rstudio", "RStudio"],
+  ["logos:react", "React"],
+  ["logos:javascript", "JavaScript"],
+  ["simple-icons:git", "Git"],
+  ["logos:python", "Python"],
+  ["logos:java", "Java"],
+  ["simple-icons:kotlin", "Kotlin"],
+  ["logos:bash", "Bash"],
+  ["logos:html-5", "HTML5"],
+  ["logos:css-3", "CSS3"],
+  ["logos:bootstrap", "Bootstrap"],
+  ["simple-icons:docker", "Docker"],
+];
+
+function TechnologyTrack({ hidden = false }) {
+  return (
+    <div className="carnival-track" aria-hidden={hidden}>
+      {technologies.map(([icon, name]) => (
+        <div className="carnival-tile" key={`${hidden}-${name}`} tabIndex={hidden ? -1 : 0}>
+          <iconify-icon icon={icon} width="70" height="50"></iconify-icon>
+          <span>{name}</span>
+        </div>
+      ))}
+    </div>
+  );
+}
 
 function Techstack() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={2} md={1} className="tech-icons">
-        <iconify-icon icon="simple-icons:rstudio" width="70" height="50"></iconify-icon>    
-      </Col>
-      <Col xs={2} md={1} className="tech-icons">
-        <iconify-icon icon="logos:react" width="70" height="50"></iconify-icon>
-      </Col>
-      <Col xs={2} md={1} className="tech-icons">
-        <iconify-icon icon="logos:javascript" width="70" height="50"></iconify-icon>
-      </Col>
-      <Col xs={2} md={1} className="tech-icons">  
-        <iconify-icon icon="simple-icons:git" width="70" height="50"></iconify-icon>
-      </Col>
-      <Col xs={2} md={1} className="tech-icons">
-        <iconify-icon icon="logos:python" width="70" height="50"></iconify-icon>
-      </Col>
-      <Col xs={2} md={1} className="tech-icons">
-        <iconify-icon icon="logos:java" width="70" height="50"></iconify-icon>
-      </Col>
-      <Col xs={2} md={1} className="tech-icons">
-        <iconify-icon icon="simple-icons:kotlin" width="70" height="50"></iconify-icon>
-      </Col>
-      <Col xs={2} md={1} className="tech-icons">
-        <iconify-icon icon="logos:bash" width="70" height="50"></iconify-icon>
-      </Col>
-      <Col xs={2} md={1} className="tech-icons">  
-        <iconify-icon icon="logos:html-5" width="70" height="50"></iconify-icon>
-      </Col>
-      <Col xs={2} md={1} className="tech-icons">
-        <iconify-icon icon="logos:css-3" width="70" height="50"></iconify-icon>
-      </Col>
-      <Col xs={2} md={1} className="tech-icons">
-        <iconify-icon icon="logos:bootstrap" width="70" height="50"></iconify-icon>
-      </Col>
-    <Col xs={2} md={1} className="tech-icons">
-        <iconify-icon icon="simple-icons:docker" width="70" height="50"></iconify-icon>
-      </Col>
-      
-    </Row>
+    <div className="carnival-carousel" aria-label="Professional technologies">
+      <div className="carnival-marquee">
+        <TechnologyTrack />
+        <TechnologyTrack hidden />
+      </div>
+    </div>
   );
 }
 

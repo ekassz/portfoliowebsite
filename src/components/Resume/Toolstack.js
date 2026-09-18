@@ -1,48 +1,42 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
-import 'iconify-icon'; 
+import "iconify-icon";
+
+const tools = [
+  ["simple-icons:visualstudiocode", "VS Code"],
+  ["logos:gitlab", "GitLab"],
+  ["logos:github", "GitHub"],
+  ["simple-icons:postman", "Postman"],
+  ["logos:linux-tux", "Linux"],
+  ["simple-icons:androidstudio", "Android Studio"],
+  ["logos:firebase", "Firebase"],
+  ["simple-icons:unity", "Unity"],
+  ["logos:jupyter", "Jupyter"],
+  ["logos:vim", "Vim"],
+  ["simple-icons:miro", "Miro"],
+  ["logos:figma", "Figma"],
+];
+
+function ToolTrack({ hidden = false }) {
+  return (
+    <div className="carnival-track" aria-hidden={hidden}>
+      {tools.map(([icon, name]) => (
+        <div className="carnival-tile" key={`${hidden}-${name}`} tabIndex={hidden ? -1 : 0}>
+          <iconify-icon icon={icon} width="70" height="50"></iconify-icon>
+          <span>{name}</span>
+        </div>
+      ))}
+    </div>
+  );
+}
 
 function Toolstack() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={2} md={1} className="tech-icons">
-        <iconify-icon icon="simple-icons:visualstudiocode" width="70" height="50"></iconify-icon>    
-      </Col>
-      <Col xs={2} md={1} className="tech-icons">
-        <iconify-icon icon="logos:gitlab" width="70" height="50"></iconify-icon>  
-      </Col>
-      <Col xs={2} md={1} className="tech-icons">
-        <iconify-icon icon="logos:github" width="70" height="50"></iconify-icon>
-      </Col>
-      <Col xs={2} md={1} className="tech-icons">  
-        <iconify-icon icon="simple-icons:postman" width="70" height="50"></iconify-icon>
-      </Col>
-      <Col xs={2} md={1} className="tech-icons">
-        <iconify-icon icon="logos:linux-tux" width="70" height="50"></iconify-icon> 
-      </Col>
-      <Col xs={2} md={1} className="tech-icons">
-        <iconify-icon icon="simple-icons:androidstudio" width="70" height="50"></iconify-icon>
-      </Col>
-      <Col xs={2} md={1} className="tech-icons">
-        <iconify-icon icon="logos:firebase" width="70" height="50"></iconify-icon>
-      </Col>
-      <Col xs={2} md={1} className="tech-icons">
-        <iconify-icon icon="simple-icons:unity" width="70" height="50"></iconify-icon>
-      </Col>
-      <Col xs={2} md={1} className="tech-icons">
-        <iconify-icon icon="logos:jupyter" width="70" height="50"></iconify-icon>
-      </Col>
-      <Col xs={2} md={1} className="tech-icons">  
-        <iconify-icon icon="logos:vim" width="70" height="50"></iconify-icon>
-      </Col>
-      <Col xs={2} md={1} className="tech-icons">
-        <iconify-icon icon="simple-icons:miro" width="70" height="50"></iconify-icon>
-      </Col>
-      <Col xs={2} md={1} className="tech-icons">
-        <iconify-icon icon="logos:figma" width="70" height="50"></iconify-icon>
-      </Col>
-
-    </Row>
+    <div className="carnival-carousel carnival-carousel-tools" aria-label="Tools I use">
+      <div className="carnival-marquee">
+        <ToolTrack />
+        <ToolTrack hidden />
+      </div>
+    </div>
   );
 }
 
